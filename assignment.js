@@ -1,2 +1,13 @@
-let num=[3,5,7,2,4,8];
+let x=23;
+let c=0;
+for(let i=1;i<=x;++i){
+    if(x%i==0){
+        c++;
+    }
+}
+if(c==2){
+    console.log("Prime");
+}else{
+    console.log("not prime");
+}
 
